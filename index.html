@@ -3,10 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <link rel="icon" type="images/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUvPyMTVLCYevsfQuOLklu4abPYSl2wyqoUPtvXNvhcw&s" />
+    <title>Salt n Pepper Resturant Lahore</title>
+    <link href="styles/style.css" rel="stylesheet"/>
+    <link href="styles/attribute.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head> 
 <body>
-    <h1>Welcome to Github</h1>
-    <h1>Welcome to Github</h1>
+   <div class="container">
+        <header class="d-flex justify-around align-center m-1 wrap">
+            <div id="logo-image" class="pl-13">
+                <img src="./Images/logo.webp">
+            </div>
+            <div>
+                <nav >
+                    <ul class="d-flex gap-4 align-center wrap" id="navbar-list">
+                        <li>Home</li>
+                        <li>About Us </li>
+                        <li>Publications</li>
+                        <li>Feedback</li>
+                        <li><button id="franchise-btn">Get a Franchise</button></li>
+                        <li><button id="order-btn">Order Online  <i class="fa fa-solid fa-arrow-right" id="arrow-font"></i> </button></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            
+            <div class="slider">
+              <span id="slide-1"></span>
+              <span id="slide-2"></span>
+              <span id="slide-3"></span>
+              <span id="slide-4"></span>
+              <div class="image-container">
+                <img src="/Images/slider1.webp" class="slide" width="1900" height="650" />
+                <img src="/Images/slider2.webp" class="slide" width="1900" height="650" />
+                <img src="/Images/slider3.webp" class="slide" width="1900" height="650" />
+                <img src="/Images/slider4.webp" class="slide" width="1900" height="650" />
+              </div>
+              <div class="buttons">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+              </div>
+            </div>
+            <div class="align-center">
+                <h1>Welcome to <span class="logo-text-hold">Salt'n Pepper </span><br/>
+                    Restaurants! Our Brands</h1>
+                <p>Please click our brands below for further information, reservations or to order online!</p>
+                <div class="d-flex  align-center wrap gap-3 " id="middle-images">
+                <div>
+                    <img src="/Images/resturant.webp">
+                  <button><a href="/main/express.html" target="_blank" class="btn-1">Order Now</a></button>
+                </div>
+                <div>
+                    <img src="/Images/express.webp">
+                    <button><a href="/main/express.html" target="_blank" class="btn-1">Order Now</a></button>
+                </div>
+                <div>
+                    <img src="/Images/village.webp">
+                    <button><a href="/main/resturant.html" target="_blank" class="btn-1">Reserve a Table</a></button>
+                </div>
+                </div>
+            </div>
+         </main>
+   </div>
 </body>
 </html>
